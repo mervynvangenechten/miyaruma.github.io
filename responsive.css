@@ -1,0 +1,50 @@
+@media only screen and (max-width: 768px) {
+
+    body {
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .row-name {
+        width: max-content;
+        margin: auto;
+        text-align: center;
+    }
+
+    .navigation, h2, .row-40-pc {
+        display: none;
+    }
+
+    .row {
+        display: block;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .row-40, .row-60 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .row-40 img {
+        width: 50%;
+        border-radius: 250px;
+    }
+
+    .social-row {
+        margin-top: 50px;
+    }
+
+    ul li img {
+        height: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
